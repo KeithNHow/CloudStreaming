@@ -1,7 +1,7 @@
 /// <summary>
-/// Table KNH Description (ID 50200).
+/// Table "KNH_Description" (ID 50200).
 /// </summary>
-table 50200 "KNH Description"
+table 50200 "KNH_Description"
 {
     Caption = 'KNH Description';
     DataClassification = ToBeClassified;

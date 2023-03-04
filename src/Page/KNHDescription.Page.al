@@ -1,10 +1,10 @@
 /// <summary>
-/// Page KNH Blob (ID 50200).
+/// Page "KNH_Description" (ID 50200).
 /// </summary>
-page 50200 "KNH Description"
+page 50200 "KNH_Description"
 {
     PageType = Card;
-    SourceTable = "KNH Description";
+    SourceTable = "KNH_Description";
     ApplicationArea = All;
     UsageCategory = Administration;
     Caption = 'Description';
@@ -37,11 +37,11 @@ page 50200 "KNH Description"
                 ApplicationArea = Notes;
                 Visible = false;
             }
-            part(DescMemo; "KNH Picture Memo")
+            part(DescMemo; "KNH_PictureMemo")
             {
                 ApplicationArea = All;
                 Caption = 'Picture Memo';
-                SubPageLink = "Primary Key" = Field("Primary Key");
+                SubPageLink = "Primary Key" = field("Primary Key");
             }
         }
     }
