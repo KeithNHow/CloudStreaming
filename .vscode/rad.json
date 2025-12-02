@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[{"Id":50801,"Kind":12,"Name":"KNH Picture Memo","PackagePath":"/src/src/Page/50801.KNH%20Picture%20Memo.Page.al"}],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50801,"Kind":12,"Name":"KNH Picture Memo"},{"Id":50201,"Kind":12,"Name":"KNH_PictureMemo","Namespace":""},{"Id":50200,"Kind":11,"Name":"KNH_StreamingFunctions","Namespace":""}],"Removed":[]}

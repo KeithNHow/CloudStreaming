@@ -33,7 +33,7 @@ page 50201 "KNH_PictureMemo"
 
                 trigger OnAction()
                 begin
-                    KNHStreamingFunctions.ImportPicture();
+                    this.KNHStreamingFunctions.ImportPicture();
                 end;
             }
             action(ExportText)
@@ -45,7 +45,7 @@ page 50201 "KNH_PictureMemo"
 
                 trigger OnAction()
                 begin
-                    KNHStreamingFunctions.ExportPicture();
+                    this.KNHStreamingFunctions.ExportPicture();
                 end;
             }
         }

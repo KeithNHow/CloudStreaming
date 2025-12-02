@@ -16,9 +16,9 @@ codeunit 50200 "KNH_StreamingFunctions"
         DialogTitleTxt: Label 'Please select a File...';
     begin
         UploadIntoStream(DialogTitleTxt, '', '(*.*)|*.*', TempFileName, PicInStream);
-        Clear(KNHDescription.Picture);
-        KNHDescription.Picture.ImportStream(PicInStream, 'Picture');
-        KNHDescription.Modify();
+        Clear(this.KNHDescription.Picture);
+        this.KNHDescription.Picture.ImportStream(PicInStream, 'Picture');
+        this.KNHDescription.Modify();
     end;
 
     /// <summary>
@@ -37,7 +37,7 @@ codeunit 50200 "KNH_StreamingFunctions"
         TempBLOB.CreateInStream(PicInStream);
         TempFileName := 'ExportPic.jpg';
         DownloadFromStream(PicInStream, '', '', '', TempFileName);
-        Clear(KNHDescription.Picture);
-        KNHDescription.Modify();
+        Clear(this.KNHDescription.Picture);
+        this.KNHDescription.Modify();
     end;
 }
