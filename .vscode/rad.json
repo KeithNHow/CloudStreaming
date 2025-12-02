@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[{"Id":50801,"Kind":12,"Name":"KNH Picture Memo"},{"Id":50201,"Kind":12,"Name":"KNH_PictureMemo","Namespace":""},{"Id":50200,"Kind":11,"Name":"KNH_StreamingFunctions","Namespace":""}],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50801,"Kind":12,"Name":"KNH Picture Memo"},{"Id":50201,"Kind":12,"Name":"KNH_PictureMemo","Namespace":""},{"Id":50200,"Kind":11,"Name":"KNH_StreamingFunctions","Namespace":""}],"Removed":[{"Id":50201,"Kind":26,"Name":"KNH Cloud Streaming","Namespace":""},{"Id":50200,"Kind":26,"Name":"KNH Cloud Streaming","Namespace":""}]}
