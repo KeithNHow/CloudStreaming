@@ -1,14 +1,11 @@
 /// <summary>
-/// Codeunit Streaming Functions (ID 50200).
+/// This codeunit defines streaming functions for importing and exporting pictures in the "KNH_Description" table. The functions utilize the AL language's built-in streaming capabilities to handle file uploads and downloads, allowing users to manage the picture.
 /// </summary>
-codeunit 50200 "KNH_StreamingFunctions"
+codeunit 50200 KNHStreamingFunctions
 {
     var
-        KNHDescription: Record KNH_Description;
+        KNHDescription: Record KNHDescription;
 
-    /// <summary>
-    /// ImportPicture.
-    /// </summary>
     procedure ImportPicture()
     var
         PicInStream: InStream;
@@ -21,9 +18,6 @@ codeunit 50200 "KNH_StreamingFunctions"
         this.KNHDescription.Modify();
     end;
 
-    /// <summary>
-    /// ExportPicture.
-    /// </summary>
     procedure ExportPicture()
     var
         TempBLOB: codeunit "Temp Blob";

@@ -1,10 +1,10 @@
 /// <summary>
-/// Page "KNH Picture Memo" (ID 50201).
+/// This is a card part page that displays a media picture from the KNHDescription table. It includes actions to import and export the picture, which utilize streaming functions defined in the KNHStreamingFunctions codeunit.
 /// </summary>
-page 50201 "KNH_PictureMemo"
+page 50201 KNHPictureMemo
 {
     PageType = CardPart;
-    SourceTable = "KNH_Description";
+    SourceTable = KNHDescription;
     DeleteAllowed = false;
     InsertAllowed = false;
     LinksAllowed = false;
@@ -20,6 +20,7 @@ page 50201 "KNH_PictureMemo"
             }
         }
     }
+
     actions
     {
         area(processing)
@@ -50,6 +51,7 @@ page 50201 "KNH_PictureMemo"
             }
         }
     }
+
     var
-        KNHStreamingFunctions: Codeunit KNH_StreamingFunctions;
+        KNHStreamingFunctions: Codeunit KNHStreamingFunctions;
 }

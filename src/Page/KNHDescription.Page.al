@@ -1,10 +1,10 @@
 /// <summary>
-/// Page "KNH_Description" (ID 50200).
+/// This is a card page that displays a memo from the KNHDescription table. The page includes factboxes for Links, Notes, and a part page for displaying a picture.
 /// </summary>
-page 50200 "KNH_Description"
+page 50200 KNHDescription
 {
     PageType = Card;
-    SourceTable = "KNH_Description";
+    SourceTable = KNHDescription;
     ApplicationArea = All;
     UsageCategory = Administration;
     Caption = 'Description';
@@ -37,7 +37,7 @@ page 50200 "KNH_Description"
                 ApplicationArea = Notes;
                 Visible = false;
             }
-            part(DescMemo; "KNH_PictureMemo")
+            part(DescMemo; KNHPictureMemo)
             {
                 ApplicationArea = All;
                 Caption = 'Picture Memo';

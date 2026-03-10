@@ -2,7 +2,7 @@
   "id": "dfe8bee9-afe9-4eef-badc-3e30cebb0c33",
   "name": "Cloud Streaming",
   "publisher": "Keith How",
-  "version": "1.0.0.0",
+  "version": "27.0.0.0",
   "brief": "Cloud Streaming",
   "description": "Cloud Streaming",
   "privacyStatement": "",
@@ -12,7 +12,7 @@
   "logo": "./logo/KNH.jpg",
   "dependencies": [],
   "screenshots": [],
-  "platform": "1.0.0.0",
+  "platform": "27.0.0.0",
   "application": "27.0.0.0",
   "idRanges": [
     {
