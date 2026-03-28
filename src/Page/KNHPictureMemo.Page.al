@@ -1,6 +1,8 @@
 /// <summary>
 /// This is a card part page that displays a media picture from the KNHDescription table. It includes actions to import and export the picture, which utilize streaming functions defined in the KNHStreamingFunctions codeunit.
 /// </summary>
+namespace KNHCloudStreaming;
+
 page 50201 KNHPictureMemo
 {
     PageType = CardPart;

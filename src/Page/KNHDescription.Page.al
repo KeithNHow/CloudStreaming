@@ -1,6 +1,8 @@
 /// <summary>
 /// This is a card page that displays a memo from the KNHDescription table. The page includes factboxes for Links, Notes, and a part page for displaying a picture.
 /// </summary>
+namespace KNHCloudStreaming;
+
 page 50200 KNHDescription
 {
     PageType = Card;

@@ -1,6 +1,9 @@
 /// <summary>
 /// This codeunit defines streaming functions for importing and exporting pictures in the "KNH_Description" table. The functions utilize the AL language's built-in streaming capabilities to handle file uploads and downloads, allowing users to manage the picture.
 /// </summary>
+namespace KNHCloudStreaming;
+using System.Utilities;
+
 codeunit 50200 KNHStreamingFunctions
 {
     var

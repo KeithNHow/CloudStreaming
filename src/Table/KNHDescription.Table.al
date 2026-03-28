@@ -1,6 +1,8 @@
 /// <summary>
 /// Bespoke table to store description data. This includes a picture and a memo field. The primary key is a code field that can be used to link this description to other tables in the system.
 /// </summary>
+namespace KNHCloudStreaming;
+
 table 50200 KNHDescription
 {
     Caption = 'KNH Description';
